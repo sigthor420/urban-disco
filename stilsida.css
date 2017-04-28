@@ -1,0 +1,29 @@
+body {
+	max-width: 60em;
+	font-family: sans-serif;
+	margin: 0 auto;
+}
+
+
+.left {
+	float:left;
+	width:18em;
+}
+
+.content {
+	
+}
+
+.background {
+	background-color:#EE702D;
+
+}
+
+.right {
+	float:right;
+	width:40em;
+}
+
+header {
+	text-align:center;
+}
