@@ -132,7 +132,7 @@ header {
 	background-color: #EE702D;
 }
 
-button {
+.kaupabutton {
 	background-color: black;
 	color: white;
 	font-size: 2em;
@@ -144,20 +144,27 @@ button {
 }
 .næs{
     left: 0;
-    line-height: 00px;
     margin: auto;
-    margin-top: -200px;
+	top: 30%;
     position: absolute;
-    top: 50%;
     width: 100%;
     text-align: center;
 }
 .næs2{
-	 margin-left:auto;
-	 display:block;
-	 margin-top:20%;
-	 margin-bottom:0%;
-	 margin-right:auto;
+	display:block;
+	top: 50%;
+	left: 0;
+	margin: auto 0;
+	position: absolute;
+	width: 7em;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-size: 2em;
+	padding: 5px 15px;
+	border-color: #444;
+	border-radius: 1em;
+	margin-left: 40%;
 }
 .nettariheader {
 	border: none;
@@ -255,12 +262,39 @@ iframe{
 		border-right: 1em black solid;
 		height: 36em;
 	}
-	button {
+	.kaupabutton {
 		margin-left: 3.7em;
+	}
+	.næs2 {
+		margin-left: 37%;
 	}
 }
 @media Screen and (max-width: 48em) {
-	
+	.næs2 {
+		margin-left: 30%;
+	}
+}
+@media Screen and (max-width: 600px) {
+	.disflex {
+		flex-flow: column;
+	}
+	.dab1 {
+		width: 100%;
+		order: 1;
+	}
+	.dab2 {
+		width: 100%;
+		order: 2;
+	}
+	.tableborder {
+		border-bottom: none;
+	}
+	aside {
+		border-left: none;
+	}
+	.ekkiborder {
+		border-left: none;
+	}
 }
 @media Screen and (max-width: 480px) {
 	.right {
@@ -275,5 +309,11 @@ iframe{
 	}
 	.left {
 		height: 100%;
+	}
+}
+@media Screen and (max-width: 30em) {
+
+	.næs2 {
+		margin-left: 20%;
 	}
 }
